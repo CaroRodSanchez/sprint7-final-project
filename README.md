@@ -25,5 +25,14 @@ Analizar el uso de llamadas y mensajes de los clientes de ConnectaTel (México y
 ## Herramientas
 Python, pandas, numpy, matplotlib, seaborn, Jupyter Notebook.
 
+## Cómo ejecutar el notebook
+1. Descarga o clona este repositorio.
+2. Abre el archivo `.ipynb` en Google Colab (File → Upload notebook) o en Jupyter Notebook.
+3. Asegúrate de tener los archivos `plans.csv`, `users_latam.csv` y `usage.csv` y ajusta las rutas en la celda de carga si es necesario.
+4. Instala las librerías si no las tienes: `pip install pandas numpy matplotlib seaborn`.
+
+## Guía de reproducción
+Ejecuta las celdas en orden, de arriba hacia abajo (Run All). El notebook carga los datos, los limpia, calcula las estadísticas, genera los gráficos, segmenta a los clientes y muestra las conclusiones finales.
+
 ## Autora
 Carolina Rodriguez— Analista de Datos en formación (TripleTen).
